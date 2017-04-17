@@ -1,0 +1,8 @@
+application: cyberagent-127
+version: 20170414t162920
+runtime: go
+api_version: go1
+
+handlers:
+- url: /.*
+  script: _go_app
